@@ -100,7 +100,7 @@ function writeCode(prefix,code,fn){   //prefix 代表着前缀   fn代表回调
             window.clearInterval(id)
             fn.call() //当第一次任务结束后回调函数
         }
-    },0)
+    },100)
 }
 
 function wirteMarkdown(markdown,fn){
@@ -113,7 +113,7 @@ function wirteMarkdown(markdown,fn){
             window.clearInterval(id)
             fn.call() //当第一次任务结束后回调函数
         }
-    },0)
+    },100)
 }
 
 
